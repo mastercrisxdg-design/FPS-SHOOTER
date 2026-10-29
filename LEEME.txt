@@ -1,0 +1,12 @@
+OPERACION 3v3 - crear el APK SIN instalar nada en tu PC (usa GitHub, gratis)
+
+1) Crea una cuenta en github.com y un repositorio nuevo (boton "New").
+2) Sube TODO el contenido de esta carpeta (incluida la carpeta oculta .github).
+   En el repositorio: "Add file" > "Upload files". Si no ves .github, activa "mostrar archivos ocultos".
+3) Ve a la pestana "Actions" > "Crear APK" > "Run workflow". Espera unos 5 minutos.
+4) Entra a la ejecucion terminada y descarga "Operacion3v3-APK" (es un zip con app-debug.apk).
+5) Pasa el APK al celular, abrelo y permite "instalar apps de origen desconocido".
+
+Alternativa en tu PC: instala Node.js y Android Studio, luego:
+  npm install ; npx cap add android ; npx cap sync ; npx cap open android
+  y en Android Studio: Build > Build APK(s).
